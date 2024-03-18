@@ -1,3 +1,14 @@
+h1 {
+  color: #cc3244;
+
+  &:hover {
+    color: darken($color: #cc3244, $amount: 15%);
+  }
+  span {
+    color: blue;
+  }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
